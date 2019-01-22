@@ -1,0 +1,31 @@
+{*
+
+Use mikroE Timer Calculator to generate proper timer configuration
+and timer ISR.
+
+https://www.mikroe.com/timer-calculator
+
+*}
+unit Click_GPS4_timer;
+
+uses Click_GPS4_types;
+
+procedure gps4_configTimer(); 
+procedure gps4_configTimer(); 
+
+implementation
+
+procedure gps4_configTimer(); 
+begin
+
+
+end;
+
+procedure Timer_interrupt(); 
+begin
+
+    gps4_tick(); 
+
+end;
+
+end.
